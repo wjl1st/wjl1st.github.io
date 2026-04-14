@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+  img.cv-image {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  img.cv-image {
+    display: block;
+    height: 100vw;
+    margin: auto;
+  }
+}
+
+footer.cv {
+  background: hsl(354, 53%, 25%);
+  color: #faf9ec;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
